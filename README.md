@@ -21,14 +21,20 @@ npm install
 
 Development mode (runs both client and server):
 
+```bash
 npm run dev
-:
-bash
-npm start
-:
-bash
-npm run server
+```
 
+# Client only
+
+```bash
+npm start
+```
+
+# Server only
+
+```bash
+npm run server
 ```
 
 
@@ -54,4 +60,3 @@ npm run server
 The application runs on:
 - Client: http://localhost:5173
 - WebSocket Server: ws://localhost:8080
-```
